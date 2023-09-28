@@ -8,7 +8,7 @@ body{
       height: 100vh;
 
       display: grid;
-      grid-template-areas: 'one two two' 'three three three';
+      grid-template-areas: 'one two two' 'three three five''four four five';
       gap: 20px;
 }
 
@@ -27,4 +27,11 @@ body{
 }
 .three{
       grid-area: three;
+}
+
+.four{
+      grid-area: four;
+}
+.five{
+      grid-area: five;
 }
